@@ -9,7 +9,7 @@ const Header = () => {
     <header className="pro-header">
       <div className="header-inner">
         <Link to="/" className="logo">
-          KONITERN
+          KONITERM
         </Link>
 
         <div
