@@ -1,12 +1,12 @@
-# KONITERN
+# KONITERM
 
-**KONITERN** je specijalizovana firma za mašinske instalacije, sa fokusom na energetsku efikasnost, pouzdanost i inovativna rešenja u industriji i građevinarstvu. Naš cilj je da pružimo visokokvalitetne usluge u oblasti grejanja, hlađenja, ventilacije i sanitarnih sistema, prilagođene potrebama naših klijenata.
+**KONITERM** je specijalizovana firma za mašinske instalacije, sa fokusom na energetsku efikasnost, pouzdanost i inovativna rešenja u industriji i građevinarstvu. Naš cilj je da pružimo visokokvalitetne usluge u oblasti grejanja, hlađenja, ventilacije i sanitarnih sistema, prilagođene potrebama naših klijenata.
 
 ---
 
 ## O nama
 
-KONITERN okuplja stručnjake sa višegodišnjim iskustvom u projektovanju, instalaciji i održavanju mašinskih instalacija za poslovne, industrijske i stambene objekte. Naši sistemi su prilagođeni savremenim standardima i koriste najnovije tehnologije za pametnu regulaciju i monitoring.
+KONITERM okuplja stručnjake sa višegodišnjim iskustvom u projektovanju, instalaciji i održavanju mašinskih instalacija za poslovne, industrijske i stambene objekte. Naši sistemi su prilagođeni savremenim standardima i koriste najnovije tehnologije za pametnu regulaciju i monitoring.
 
 ---
 
@@ -37,7 +37,7 @@ Za kompletnu listu i detalje posetite našu sekciju **Reference** na sajtu.
 
 Imate pitanje ili želite saradnju? Kontaktirajte nas putem:
 
-- Email: info@konitern.rs
+- Email: info@koniterm.rs
 - Telefon: +381 11 123 4567
 - Adresa: Bulevar Kralja Aleksandra 100, Beograd, Srbija
 
