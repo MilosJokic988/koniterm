@@ -1,0 +1,48 @@
+.home-background {
+  background-image: 
+    url('./images/konitern.jpg'); /* Ubaci sliku u public folder pod tim imenom */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-background h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #f0a500;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.home-background p {
+  max-width: 700px;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.cta-button {
+  background-color: #f0a500;
+  color: #1a2b4c;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(240, 165, 0, 0.3);
+}
+
+.cta-button:hover {
+  background-color: #d18e00;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(209, 142, 0, 0.6);
+}
