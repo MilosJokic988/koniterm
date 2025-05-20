@@ -1,6 +1,5 @@
 .home-background {
-  background-image: 
-    url('./images/konitern.jpg'); /* Ubaci sliku u public folder pod tim imenom */
+  background: linear-gradient(to bottom right, #1a2b4c, #263859, #f78f1e); /* Ubaci sliku u public folder pod tim imenom */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
