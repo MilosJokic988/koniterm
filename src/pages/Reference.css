@@ -1,28 +1,27 @@
 .reference-container {
-background: linear-gradient(to bottom right, #1a2b4c, #263859, #3a9d8f);
-
-  padding: 4rem 2rem;
+  background: linear-gradient(to bottom right, #1a2b4c, #263859, #3a9d8f);
+  padding: 3rem 1.5rem;
   min-height: 100vh;
 }
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .flip-card {
   background: transparent;
   perspective: 1000px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .flip-card-inner {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 220px;
   transition: transform 0.6s;
   transform-style: preserve-3d;
 }
@@ -49,13 +48,39 @@ background: linear-gradient(to bottom right, #1a2b4c, #263859, #3a9d8f);
   background-color: #f0a500;
   color: #1a2b4c;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 .flip-card-back {
   background-color: #1a2b4c;
   color: #fff;
   transform: rotateY(180deg);
-  font-size: 1rem;
+  font-size: 0.95rem;
   text-align: center;
+}
+
+/* Responsive optimizacija */
+@media (max-width: 768px) {
+  .reference-container {
+    padding: 2rem 1rem;
+  }
+
+  .flip-card-inner {
+    height: 180px;
+  }
+
+  .flip-card-front {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .flip-card-back {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  .card-grid {
+    gap: 1rem;
+  }
 }

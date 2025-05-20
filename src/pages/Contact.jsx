@@ -5,12 +5,12 @@ const Contact = () => {
   return (
     <div className="contact-background text-light">
       <div className="contact-container">
-        <h1 className="text-center mb-4">Kontaktirajte nas</h1>
+        <h1 className="text-center mb-4"></h1>
 
         <div className="contact-info">
           <div>
             <h3>Email</h3>
-            <p>office@konitern.rs</p>
+            <p>office@koniterm.rs</p>
           </div>
           <div>
             <h3>Telefon</h3>

@@ -1,5 +1,6 @@
 .home-background {
-  background: linear-gradient(to bottom right, #1a2b4c, #263859, #f78f1e); /* Ubaci sliku u public folder pod tim imenom */
+  background: linear-gradient(to bottom right, #1a2b4c, #263859, #f78f1e), 
+              url("/your-image.jpg"); /* Ako koristiš sliku, postavi je u /public i promeni naziv */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +27,10 @@
   line-height: 1.6;
   color: #ffffff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
+
 .cta-button {
   background-color: #f0a500;
   color: #1a2b4c;
@@ -44,4 +48,26 @@
   background-color: #d18e00;
   color: #fff;
   box-shadow: 0 6px 18px rgba(209, 142, 0, 0.6);
+}
+
+/* Responsive za mobilne uređaje */
+@media (max-width: 768px) {
+  .home-background {
+    padding: 1.5rem 1rem;
+  }
+
+  .home-background h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+
+  .home-background p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+  }
 }

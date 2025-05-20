@@ -1,6 +1,5 @@
 .about-background {
- background: linear-gradient(to bottom right, #1a2b4c, #263859, #3a9d8f);
-
+  background: linear-gradient(to bottom right, #1a2b4c, #263859, #3a9d8f);
   min-height: 100vh;
   padding: 4rem 2rem;
   color: #f0f0f0;
@@ -50,4 +49,30 @@
   background-color: #d18e00;
   color: #fff;
   box-shadow: 0 6px 20px rgba(209, 142, 0, 0.6);
+}
+
+/* Responsive prilagođavanje za telefon i tablete */
+@media (max-width: 768px) {
+  .about-background {
+    padding: 2rem 1rem;
+  }
+
+  .about-container {
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .about-btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+  }
 }

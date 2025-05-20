@@ -46,10 +46,7 @@ const projects = [
   title: 'Studentski dom "Akademik"',
   description: 'Moderni sistemi ventilacije i klimatizacije za udoban boravak studenata.'
 },
-{
-  title: 'Tehnički muzej "Inovacija"',
-  description: 'Posebni sistemi za kontrolu temperature i vlage u izložbenim prostorima.'
-}
+
 ];
 
 const Reference = () => {
